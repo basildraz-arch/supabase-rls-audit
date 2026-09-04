@@ -88,7 +88,9 @@ Requires no extensions and no elevated role beyond what the SQL editor already g
 
 All six holes, with the fix for each and how I proved it actually landed:
 
-**[Six ways I leaked data through correct RLS policies](./six-ways-rls-leaks.md)**
+**[Six ways I leaked data through correct RLS policies](https://dev.to/basildrazarch/six-ways-i-leaked-data-through-correct-rls-policies-3l39)**
+
+Also mirrored in this repo: [six-ways-rls-leaks.md](./six-ways-rls-leaks.md)
 
 ---
 
