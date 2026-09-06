@@ -306,3 +306,23 @@ order by 2 desc;
 --  "I ran the revoke" is not evidence. Ask the database:
 --      select has_function_privilege('anon', 'public.my_func()', 'execute');
 -- ---------------------------------------------------------------------
+
+
+-- ---------------------------------------------------------------------
+--  IF A COUNT CAME BACK NON-ZERO AND YOU CANNOT EXPLAIN IT
+-- ---------------------------------------------------------------------
+--
+--  Not every non-zero count is a vulnerability. FOR ALL policies and
+--  deny-all tables are often deliberate, and only you know what your
+--  data is worth. But a count you cannot explain is worth an hour.
+--
+--  Paste the output into an issue and I will look at it with you:
+--      https://github.com/basildraz-arch/supabase-rls-audit/issues
+--
+--  The write-up behind these checks — six real holes, the fix for each,
+--  and how each fix was proved to land:
+--      https://dev.to/basildrazarch/six-ways-i-leaked-data-through-correct-rls-policies-3l39
+--      بالعربي: six-ways-rls-leaks-ar.md in this repo
+--
+--  — Basel Draz, Next.js + Supabase
+-- ---------------------------------------------------------------------
