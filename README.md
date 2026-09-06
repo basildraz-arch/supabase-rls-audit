@@ -92,6 +92,8 @@ All six holes, with the fix for each and how I proved it actually landed:
 
 Also mirrored in this repo: [six-ways-rls-leaks.md](./six-ways-rls-leaks.md)
 
+بالعربي: [ست طرق سرّبت بيها بيانات رغم إن سياسات RLS كانت مكتوبة صح](./six-ways-rls-leaks-ar.md)
+
 ---
 
 ## Contributing
